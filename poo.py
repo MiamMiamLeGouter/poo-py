@@ -1,10 +1,9 @@
-class Personnage_2:
-    def __init__(self, nb_vies):
+class Personnage_3:
+    def __init__(self, nb_vies, age):
         self.vie = nb_vies
+        self.age = age
 
 
-gollum = Personnage_2(15)
-bilbo = Personnage_2(20)
+gollum = Personnage_3(15, 117)
 
-print("Vie de Gollum :", gollum.vie)
-print("Vie de Bilbo :", bilbo.vie)
+print("gollum a", gollum.vie, "vies et il a", gollum.age, "ans.")
